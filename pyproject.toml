@@ -44,10 +44,10 @@ full = [
     "pyyaml",
     "httpx>=0.27.0,<0.29.0",
     "httpx2>=2.0.0",
-    "brotli",
+    "brotli>=1.2.1",
 ]
 brotli = [
-    "brotli",
+    "brotli>=1.2.1",
 ]
 
 [dependency-groups]
@@ -82,6 +82,7 @@ exclude-newer = "7 days"
 
 [tool.uv.exclude-newer-package]
 certifi = "2026-10-20T23:59:59Z"
+brotli = "2026-10-22T23:59:59Z"
 
 [project.urls]
 Homepage = "https://github.com/Kludex/starlette"
