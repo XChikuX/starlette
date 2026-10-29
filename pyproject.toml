@@ -32,6 +32,8 @@ classifiers = [
 ]
 dependencies = [
     "anyio>=4.0.0,<5",
+    "fastapi>=0.141.1",
+    "granian>=2.7.9",
     "typing_extensions>=4.10.0; python_version < '3.13'",
 ]
 
